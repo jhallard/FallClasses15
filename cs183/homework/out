@@ -1,0 +1,321 @@
+Mangiata: add : u1 (joe) u2 (carl)
+add_el : u = joe
+add_el : u in guests? False
+add_el : u = carl
+add_el : u in guests? False
+_get_g : u = (joe)
+appending to p : %s None
+_get_g returning : ['joe'] 
+_get_g : u = (carl)
+appending to p : %s None
+_get_g returning : ['carl'] 
+add : u1 (carl) u2 (hugo)
+add_el : u = carl
+add_el : u in guests? True
+add_el : u = hugo
+add_el : u in guests? False
+_get_g : u = (carl)
+appending to p : %s None
+_get_g returning : ['carl'] 
+_get_g : u = (hugo)
+appending to p : %s None
+_get_g returning : ['hugo'] 
+add : u1 (hugo) u2 (eric)
+add_el : u = hugo
+add_el : u in guests? True
+add_el : u = eric
+add_el : u in guests? False
+_get_g : u = (hugo)
+appending to p : %s None
+_get_g returning : ['hugo'] 
+_get_g : u = (eric)
+appending to p : %s None
+_get_g returning : ['eric'] 
+add : u1 (eric) u2 (carl)
+add_el : u = eric
+add_el : u in guests? True
+add_el : u = carl
+add_el : u in guests? True
+_get_g : u = (eric)
+appending to p : %s None
+_get_g returning : ['eric'] 
+_get_g : u = (carl)
+appending to p : %s hugo
+appending to p : %s eric
+appending to p : %s None
+_get_g returning : ['carl', 'hugo', 'eric'] 
+add : u1 (annie) u2 (helen)
+add_el : u = annie
+add_el : u in guests? False
+add_el : u = helen
+add_el : u in guests? False
+_get_g : u = (annie)
+appending to p : %s None
+_get_g returning : ['annie'] 
+_get_g : u = (helen)
+appending to p : %s None
+_get_g returning : ['helen'] 
+add : u1 (helen) u2 (annie)
+add_el : u = helen
+add_el : u in guests? True
+add_el : u = annie
+add_el : u in guests? True
+_get_g : u = (helen)
+appending to p : %s None
+_get_g returning : ['helen'] 
+_get_g : u = (annie)
+appending to p : %s helen
+appending to p : %s None
+_get_g returning : ['annie', 'helen'] 
+add : u1 (rosa) u2 (carla)
+add_el : u = rosa
+add_el : u in guests? False
+add_el : u = carla
+add_el : u in guests? False
+_get_g : u = (rosa)
+appending to p : %s None
+_get_g returning : ['rosa'] 
+_get_g : u = (carla)
+appending to p : %s None
+_get_g returning : ['carla'] 
+add : u1 (luise) u2 (hanna)
+add_el : u = luise
+add_el : u in guests? False
+add_el : u = hanna
+add_el : u in guests? False
+_get_g : u = (luise)
+appending to p : %s None
+_get_g returning : ['luise'] 
+_get_g : u = (hanna)
+appending to p : %s None
+_get_g returning : ['hanna'] 
+add : u1 (hanna) u2 (carla)
+add_el : u = hanna
+add_el : u in guests? True
+add_el : u = carla
+add_el : u in guests? True
+_get_g : u = (hanna)
+appending to p : %s None
+_get_g returning : ['hanna'] 
+_get_g : u = (carla)
+appending to p : %s None
+_get_g returning : ['carla'] 
+_get_g : u = (carl)
+appending to p : %s hugo
+appending to p : %s eric
+appending to p : %s None
+_get_g returning : ['carl', 'hugo', 'eric'] 
+_get_g : u = (hanna)
+appending to p : %s carla
+appending to p : %s None
+_get_g returning : ['hanna', 'carla'] 
+_get_g : u = (hugo)
+appending to p : %s eric
+appending to p : %s None
+_get_g returning : ['hugo', 'eric'] 
+_get_g : u = (rosa)
+appending to p : %s carla
+appending to p : %s None
+_get_g returning : ['rosa', 'carla'] 
+_get_g : u = (carla)
+appending to p : %s None
+_get_g returning : ['carla'] 
+_get_g : u = (joe)
+appending to p : %s carl
+appending to p : %s hugo
+appending to p : %s eric
+appending to p : %s None
+_get_g returning : ['joe', 'carl', 'hugo', 'eric'] 
+_get_g : u = (annie)
+appending to p : %s helen
+appending to p : %s None
+_get_g returning : ['annie', 'helen'] 
+_get_g : u = (helen)
+appending to p : %s None
+_get_g returning : ['helen'] 
+_get_g : u = (luise)
+appending to p : %s hanna
+appending to p : %s carla
+appending to p : %s None
+_get_g returning : ['luise', 'hanna', 'carla'] 
+_get_g : u = (eric)
+appending to p : %s None
+_get_g returning : ['eric'] 
+[['hanna', 'rosa', 'carla', 'luise'], ['carl', 'hugo', 'joe', 'eric'], ['annie', 'helen']]
+Mangiatona: add : u1 (joe) u2 (carl)
+add_el : u = joe
+add_el : u in guests? False
+add_el : u = carl
+add_el : u in guests? False
+_get_g : u = (joe)
+appending to p : %s None
+_get_g returning : ['joe'] 
+_get_g : u = (carl)
+appending to p : %s None
+_get_g returning : ['carl'] 
+add : u1 (carl) u2 (hugo)
+add_el : u = carl
+add_el : u in guests? True
+add_el : u = hugo
+add_el : u in guests? False
+_get_g : u = (carl)
+appending to p : %s None
+_get_g returning : ['carl'] 
+_get_g : u = (hugo)
+appending to p : %s None
+_get_g returning : ['hugo'] 
+add : u1 (hugo) u2 (eric)
+add_el : u = hugo
+add_el : u in guests? True
+add_el : u = eric
+add_el : u in guests? False
+_get_g : u = (hugo)
+appending to p : %s None
+_get_g returning : ['hugo'] 
+_get_g : u = (eric)
+appending to p : %s None
+_get_g returning : ['eric'] 
+add : u1 (eric) u2 (carl)
+add_el : u = eric
+add_el : u in guests? True
+add_el : u = carl
+add_el : u in guests? True
+_get_g : u = (eric)
+appending to p : %s None
+_get_g returning : ['eric'] 
+_get_g : u = (carl)
+appending to p : %s hugo
+appending to p : %s eric
+appending to p : %s None
+_get_g returning : ['carl', 'hugo', 'eric'] 
+add : u1 (rob) u2 (luca)
+add_el : u = rob
+add_el : u in guests? False
+add_el : u = luca
+add_el : u in guests? False
+_get_g : u = (rob)
+appending to p : %s None
+_get_g returning : ['rob'] 
+_get_g : u = (luca)
+appending to p : %s None
+_get_g returning : ['luca'] 
+add : u1 (luca) u2 (annie)
+add_el : u = luca
+add_el : u in guests? True
+add_el : u = annie
+add_el : u in guests? False
+_get_g : u = (luca)
+appending to p : %s None
+_get_g returning : ['luca'] 
+_get_g : u = (annie)
+appending to p : %s None
+_get_g returning : ['annie'] 
+add : u1 (annie) u2 (helen)
+add_el : u = annie
+add_el : u in guests? True
+add_el : u = helen
+add_el : u in guests? False
+_get_g : u = (annie)
+appending to p : %s None
+_get_g returning : ['annie'] 
+_get_g : u = (helen)
+appending to p : %s None
+_get_g returning : ['helen'] 
+add : u1 (helen) u2 (annie)
+add_el : u = helen
+add_el : u in guests? True
+add_el : u = annie
+add_el : u in guests? True
+_get_g : u = (helen)
+appending to p : %s None
+_get_g returning : ['helen'] 
+_get_g : u = (annie)
+appending to p : %s helen
+appending to p : %s None
+_get_g returning : ['annie', 'helen'] 
+add : u1 (rosa) u2 (carla)
+add_el : u = rosa
+add_el : u in guests? False
+add_el : u = carla
+add_el : u in guests? False
+_get_g : u = (rosa)
+appending to p : %s None
+_get_g returning : ['rosa'] 
+_get_g : u = (carla)
+appending to p : %s None
+_get_g returning : ['carla'] 
+add : u1 (luise) u2 (hanna)
+add_el : u = luise
+add_el : u in guests? False
+add_el : u = hanna
+add_el : u in guests? False
+_get_g : u = (luise)
+appending to p : %s None
+_get_g returning : ['luise'] 
+_get_g : u = (hanna)
+appending to p : %s None
+_get_g returning : ['hanna'] 
+add : u1 (hanna) u2 (carla)
+add_el : u = hanna
+add_el : u in guests? True
+add_el : u = carla
+add_el : u in guests? True
+_get_g : u = (hanna)
+appending to p : %s None
+_get_g returning : ['hanna'] 
+_get_g : u = (carla)
+appending to p : %s None
+_get_g returning : ['carla'] 
+_get_g : u = (annie)
+appending to p : %s helen
+appending to p : %s None
+_get_g returning : ['annie', 'helen'] 
+_get_g : u = (hanna)
+appending to p : %s carla
+appending to p : %s None
+_get_g returning : ['hanna', 'carla'] 
+_get_g : u = (rob)
+appending to p : %s luca
+appending to p : %s annie
+appending to p : %s helen
+appending to p : %s None
+_get_g returning : ['rob', 'luca', 'annie', 'helen'] 
+_get_g : u = (hugo)
+appending to p : %s eric
+appending to p : %s None
+_get_g returning : ['hugo', 'eric'] 
+_get_g : u = (rosa)
+appending to p : %s carla
+appending to p : %s None
+_get_g returning : ['rosa', 'carla'] 
+_get_g : u = (carla)
+appending to p : %s None
+_get_g returning : ['carla'] 
+_get_g : u = (luca)
+appending to p : %s annie
+appending to p : %s helen
+appending to p : %s None
+_get_g returning : ['luca', 'annie', 'helen'] 
+_get_g : u = (carl)
+appending to p : %s hugo
+appending to p : %s eric
+appending to p : %s None
+_get_g returning : ['carl', 'hugo', 'eric'] 
+_get_g : u = (helen)
+appending to p : %s None
+_get_g returning : ['helen'] 
+_get_g : u = (luise)
+appending to p : %s hanna
+appending to p : %s carla
+appending to p : %s None
+_get_g returning : ['luise', 'hanna', 'carla'] 
+_get_g : u = (eric)
+appending to p : %s None
+_get_g returning : ['eric'] 
+_get_g : u = (joe)
+appending to p : %s carl
+appending to p : %s hugo
+appending to p : %s eric
+appending to p : %s None
+_get_g returning : ['joe', 'carl', 'hugo', 'eric'] 
+[['hanna', 'rosa', 'carla', 'luise'], ['hugo', 'carl', 'eric', 'joe'], ['annie', 'rob', 'luca', 'helen']]
